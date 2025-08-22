@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1640"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "28E445EC2D19F57F00C977FA"
+               BuildableName = "meetX-iOS.app"
+               BlueprintName = "meetX-iOS"
+               ReferencedContainer = "container:meetX-iOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "PreProductionStage"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "28E446032D19F58000C977FA"
+               BuildableName = "meetX-iOSTests.xctest"
+               BlueprintName = "meetX-iOSTests"
+               ReferencedContainer = "container:meetX-iOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "28E4460D2D19F58000C977FA"
+               BuildableName = "meetX-iOSUITests.xctest"
+               BlueprintName = "meetX-iOSUITests"
+               ReferencedContainer = "container:meetX-iOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "PreProductionStage"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28E445EC2D19F57F00C977FA"
+            BuildableName = "meetX-iOS.app"
+            BlueprintName = "meetX-iOS"
+            ReferencedContainer = "container:meetX-iOS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <LocationScenarioReference
+         identifier = "../../meetX-iOS/Scenes/TabBar/Explore/ExploreElements/MyLocation.gpx"
+         referenceType = "0">
+      </LocationScenarioReference>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "PreProductionStage"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "28E445EC2D19F57F00C977FA"
+            BuildableName = "meetX-iOS.app"
+            BlueprintName = "meetX-iOS"
+            ReferencedContainer = "container:meetX-iOS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "PreProductionStage">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Production"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

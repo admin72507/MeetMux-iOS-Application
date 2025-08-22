@@ -1,0 +1,19 @@
+//
+//  Production.xcconfig
+//  meetX-iOS
+//
+//  Created by Karthick Thavasimuthu on 19-07-2025.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+//CODE_SIGN_STYLE = Manual
+//DEVELOPMENT_TEAM = K948MJN7NV
+//CODE_SIGN_IDENTITY = Apple Distribution
+//PROVISIONING_PROFILE_SPECIFIER = Production_2025
+//PRODUCT_BUNDLE_IDENTIFIER = com.altrodav.MeetMux.iOS
+
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = K948MJN7NV
+PRODUCT_BUNDLE_IDENTIFIER = com.altrodav.MeetMux.iOS
