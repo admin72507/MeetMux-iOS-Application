@@ -1,0 +1,353 @@
+{
+    "timestamp": "2025-04-06T12:22:00Z",
+    "pagination": {
+        "page": 1,
+        "limit": 10,
+        "total_pages": 3,
+        "has_next": true
+    },
+    "live_users": [
+        {
+            "id": "u1",
+            "name": "Karthick",
+            "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
+            "is_active": true,
+            "online_status": "online",
+            "is_typing": false
+        },
+        {
+            "id": "u2",
+            "name": "Susan",
+            "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
+            "is_active": true,
+            "online_status": "online",
+            "is_typing": true
+        },
+        {
+            "id": "u3",
+            "name": "David",
+            "avatar_url": "https://randomuser.me/api/portraits/men/85.jpg",
+            "is_active": false,
+            "online_status": "away",
+            "is_typing": false
+        },
+        {
+            "id": "u4",
+            "name": "Kiara",
+            "avatar_url": "https://randomuser.me/api/portraits/women/23.jpg",
+            "is_active": false,
+            "online_status": "offline",
+            "is_typing": false
+        },
+        {
+            "id": "u5",
+            "name": "Dora",
+            "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
+            "is_active": true,
+            "online_status": "online",
+            "is_typing": false
+        }
+    ],
+    "conversations": [
+        {
+            "room_id": "c1",
+            "last_message_id": "m1001",
+            "user": {
+                "id": "u2",
+                "name": "Susan Janet",
+                "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg"
+            },
+            "message_preview": "How was the Food and Place?",
+            "message_type": "text",
+            "timestamp": "2025-04-06T12:20:00Z",
+            "unread": true,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c2",
+            "last_message_id": "m1002",
+            "user": {
+                "id": "u6",
+                "name": "Michael Paul",
+                "avatar_url": "https://randomuser.me/api/portraits/men/36.jpg"
+            },
+            "message_preview": "🎵 Voice message",
+            "message_type": "audio",
+            "timestamp": "2025-04-06T12:17:00Z",
+            "unread": true,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c3",
+            "last_message_id": "m1003",
+            "user": {
+                "id": "u7",
+                "name": "Lisa Judy",
+                "avatar_url": "https://randomuser.me/api/portraits/women/60.jpg"
+            },
+            "message_preview": "📷 Photo",
+            "message_type": "image",
+            "timestamp": "2025-04-06T08:06:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c4",
+            "last_message_id": "m1004",
+            "user": {
+                "id": "u8",
+                "name": "Rebecca Olivia",
+                "avatar_url": "https://randomuser.me/api/portraits/women/12.jpg"
+            },
+            "message_preview": "📄 Shared a document",
+            "message_type": "file",
+            "timestamp": "2025-04-06T09:16:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c5",
+            "last_message_id": "m1005",
+            "user": {
+                "id": "u9",
+                "name": "Mark Kevin",
+                "avatar_url": "https://randomuser.me/api/portraits/men/50.jpg"
+            },
+            "message_preview": "📍 Location shared",
+            "message_type": "location",
+            "timestamp": "2025-04-06T09:45:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c6",
+            "last_message_id": "m1006",
+            "user": {
+                "id": "u10",
+                "name": "Emma Maria",
+                "avatar_url": "https://randomuser.me/api/portraits/women/88.jpg"
+            },
+            "message_preview": "📹 Video message",
+            "message_type": "video",
+            "timestamp": "2025-04-06T10:16:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c7",
+            "last_message_id": "m1007",
+            "user": {
+                "id": "u11",
+                "name": "Ryan Craig",
+                "avatar_url": "https://randomuser.me/api/portraits/men/21.jpg"
+            },
+            "message_preview": "Cool! See you at 8.",
+            "message_type": "text",
+            "timestamp": "2025-04-06T11:45:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c8",
+            "last_message_id": "m1008",
+            "user": {
+                "id": "u12",
+                "name": "Amelia Ross",
+                "avatar_url": "https://randomuser.me/api/portraits/women/15.jpg"
+            },
+            "message_preview": "Sent you the payment 💸",
+            "message_type": "text",
+            "timestamp": "2025-04-06T10:22:00Z",
+            "unread": true,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c9",
+            "last_message_id": "m1009",
+            "user": {
+                "id": "u13",
+                "name": "Tom Hardy",
+                "avatar_url": "https://randomuser.me/api/portraits/men/18.jpg"
+            },
+            "message_preview": "👍🏼 Okay, let me check",
+            "message_type": "text",
+            "timestamp": "2025-04-06T07:55:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c10",
+            "last_message_id": "m1010",
+            "user": {
+                "id": "u14",
+                "name": "Natalie Ray",
+                "avatar_url": "https://randomuser.me/api/portraits/women/27.jpg"
+            },
+            "message_preview": "🎉 Party tomorrow!",
+            "message_type": "text",
+            "timestamp": "2025-04-06T06:30:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": true
+        },
+        {
+            "room_id": "c11",
+            "last_message_id": "m1011",
+            "user": {
+                "id": "u15",
+                "name": "Lucas Perry",
+                "avatar_url": "https://randomuser.me/api/portraits/men/43.jpg"
+            },
+            "message_preview": "Check your inbox 📬",
+            "message_type": "file",
+            "timestamp": "2025-04-06T12:00:00Z",
+            "unread": true,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c12",
+            "last_message_id": "m1012",
+            "user": {
+                "id": "u16",
+                "name": "Ava Cooper",
+                "avatar_url": "https://randomuser.me/api/portraits/women/33.jpg"
+            },
+            "message_preview": "Typing...",
+            "message_type": "text",
+            "timestamp": "2025-04-06T12:03:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": true
+        },
+        {
+            "room_id": "c13",
+            "last_message_id": "m1013",
+            "user": {
+                "id": "u17",
+                "name": "Noah Brooks",
+                "avatar_url": "https://randomuser.me/api/portraits/men/64.jpg"
+            },
+            "message_preview": "📞 Missed a call",
+            "message_type": "text",
+            "timestamp": "2025-04-06T11:12:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c14",
+            "last_message_id": "m1014",
+            "user": {
+                "id": "u18",
+                "name": "Olivia Dean",
+                "avatar_url": "https://randomuser.me/api/portraits/women/78.jpg"
+            },
+            "message_preview": "👀 Seen your status!",
+            "message_type": "text",
+            "timestamp": "2025-04-06T11:29:00Z",
+            "unread": false,
+            "pinned": true,
+            "muted": false
+        },
+        {
+            "room_id": "c15",
+            "last_message_id": "m1015",
+            "user": {
+                "id": "u19",
+                "name": "Liam Anderson",
+                "avatar_url": "https://randomuser.me/api/portraits/men/70.jpg"
+            },
+            "message_preview": "🎮 Let's play tonight",
+            "message_type": "text",
+            "timestamp": "2025-04-06T08:40:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c16",
+            "last_message_id": "m1016",
+            "user": {
+                "id": "u20",
+                "name": "Sophia Lane",
+                "avatar_url": "https://randomuser.me/api/portraits/women/30.jpg"
+            },
+            "message_preview": "✅ Done with the task",
+            "message_type": "text",
+            "timestamp": "2025-04-06T07:15:00Z",
+            "unread": true,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c17",
+            "last_message_id": "m1017",
+            "user": {
+                "id": "u21",
+                "name": "Jackie Wong",
+                "avatar_url": "https://randomuser.me/api/portraits/men/73.jpg"
+            },
+            "message_preview": "📎 Sent an attachment",
+            "message_type": "file",
+            "timestamp": "2025-04-06T07:00:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c18",
+            "last_message_id": "m1018",
+            "user": {
+                "id": "u22",
+                "name": "Mia Patel",
+                "avatar_url": "https://randomuser.me/api/portraits/women/53.jpg"
+            },
+            "message_preview": "🤔 Any updates?",
+            "message_type": "text",
+            "timestamp": "2025-04-06T06:55:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c19",
+            "last_message_id": "m1019",
+            "user": {
+                "id": "u23",
+                "name": "Daniel Chen",
+                "avatar_url": "https://randomuser.me/api/portraits/men/11.jpg"
+            },
+            "message_preview": "✅ Task confirmed",
+            "message_type": "text",
+            "timestamp": "2025-04-06T06:30:00Z",
+            "unread": false,
+            "pinned": false,
+            "muted": false
+        },
+        {
+            "room_id": "c20",
+            "last_message_id": "m1020",
+            "user": {
+                "id": "u24",
+                "name": "Emily Carter",
+                "avatar_url": "https://randomuser.me/api/portraits/women/20.jpg"
+            },
+            "message_preview": "😍 Love it!",
+            "message_type": "text",
+            "timestamp": "2025-04-06T06:10:00Z",
+            "unread": true,
+            "pinned": false,
+            "muted": false
+        }
+    ]
+}

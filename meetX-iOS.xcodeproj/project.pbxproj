@@ -157,6 +157,8 @@
 		287954C22D9104E800378EF0 /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287954C12D9104D900378EF0 /* SegmentControl.swift */; };
 		287954C52D91075100378EF0 /* NotificationCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287954C42D91074C00378EF0 /* NotificationCodable.swift */; };
 		287DFABF2E2B4B0900863C93 /* ChangeLog.md in Sources */ = {isa = PBXBuildFile; fileRef = 287DFABE2E2B4B0400863C93 /* ChangeLog.md */; };
+		287DFAC12E2B816900863C93 /* PreProductionStage.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 287DFAC02E2B816900863C93 /* PreProductionStage.xcconfig */; };
+		287DFAC32E2B817B00863C93 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 287DFAC22E2B817B00863C93 /* Production.xcconfig */; };
 		287DFAC52E2C09CD00863C93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 287DFAC42E2C09CD00863C93 /* GoogleService-Info.plist */; };
 		28833D3D2DE6740A007932FF /* VideoPlayerGeneralSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28833D3C2DE673F6007932FF /* VideoPlayerGeneralSingleView.swift */; };
 		28833D3F2DE67465007932FF /* VideoPlayerSingleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28833D3E2DE67458007932FF /* VideoPlayerSingleObservable.swift */; };
@@ -2174,7 +2176,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					28E445EC2D19F57F00C977FA = {
 						CreatedOnToolsVersion = 16.2;
@@ -2250,6 +2252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287DFAC12E2B816900863C93 /* PreProductionStage.xcconfig in Resources */,
+				287DFAC32E2B817B00863C93 /* Production.xcconfig in Resources */,
 				289F18012E15559F00CB4CE2 /* README.md in Resources */,
 				289F18032E15559F00CB4CE2 /* LICENSE in Resources */,
 			);

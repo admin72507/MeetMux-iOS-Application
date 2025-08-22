@@ -1,0 +1,123 @@
+[
+ {
+    "id": "notif_001",
+    "notificationType": "Friend Invite",
+    "user": {
+        "name": "John Doe",
+        "profileImage": "https://example.com/profiles/john_doe.jpg"
+    },
+    "message": "John Doe sent you a friend request.",
+    "timeStamp": "2025-03-24T17:15:30+05:30"
+},
+ {
+    "id": "notif_002",
+    "notificationType": "Like",
+    "user": {
+        "name": "Alice Smith",
+        "profileImage": "https://example.com/profiles/alice_smith.jpg"
+    },
+    "message": "Alice Smith liked your post.",
+    "postId": "post_123",
+    "timeStamp": "2025-03-24T18:10:30+05:30"
+},
+ {
+    "id": "notif_003",
+    "notificationType": "Comment",
+    "user": {
+        "name": "Michael Brown",
+        "profileImage": "https://example.com/profiles/michael_brown.jpg"
+    },
+    "message": "Michael Brown commented on your post: 'Great picture!'",
+    "postId": "post_456",
+    "commentid": "comment_789",
+    "timeStamp": "2025-03-23T20:00:00+05:30"
+},
+ {
+    "id": "notif_004",
+    "notificationType": "@Mention",
+    "user": {
+        "name": "Emma Wilson",
+        "profileImage": "https://example.com/profiles/emma_wilson.jpg"
+    },
+    "message": "Emma Wilson mentioned you in a comment: '@your_username check this out!'",
+    "postId": "post_789",
+    "commentid": "comment_101",
+    "timeStamp": "2025-03-20T15:45:00+05:30"
+},
+ {
+    "id": "notif_005",
+    "notificationType": "Tagged in Post",
+    "user": {
+        "name": "Daniel Lee",
+        "profileImage": "https://example.com/profiles/daniel_lee.jpg"
+    },
+    "message": "Daniel Lee tagged you in a post.",
+    "postId": "post_987",
+    "timeStamp": "2025-02-28T14:30:00+05:30"
+},
+ {
+    "id": "notif_006",
+    "notificationType": "Shared Post",
+    "user": {
+        "name": "Sophia Miller",
+        "profileImage": "https://example.com/profiles/sophia_miller.jpg"
+    },
+    "message": "Sophia Miller shared your post.",
+    "postId": "post_654",
+    "timeStamp": "2025-02-10T22:50:00+05:30"
+},
+ {
+    "id": "notif_007",
+    "notificationType": "Follow Request",
+    "user": {
+        "name": "David Johnson",
+        "profileImage": "https://example.com/profiles/david_johnson.jpg"
+    },
+    "message": "David Johnson requested to follow you.",
+    "timeStamp": "2025-01-16T03:15:00+05:30"
+},
+ {
+    "id": "notif_008",
+    "notificationType": "Story Mention",
+    "user": {
+        "name": "Olivia White",
+        "profileImage": "https://example.com/profiles/olivia_white.jpg"
+    },
+    "message": "Olivia White mentioned you in their story.",
+    "storyId": "story_112",
+    "timeStamp": "2024-12-25T13:30:00+05:30"
+},
+ {
+    "id": "notif_009",
+    "notificationType": "Event Invite",
+    "user": {
+        "name": "William Clark",
+        "profileImage": "https://example.com/profiles/william_clark.jpg"
+    },
+    "message": "William Clark invited you to an event: 'Birthday Party'.",
+    "eventId": "event_777",
+    "timeStamp": "2024-09-10T23:00:00+05:30"
+},
+ {
+    "id": "notif_010",
+    "notificationType": "Group Invite",
+    "user": {
+        "name": "Charlotte Adams",
+        "profileImage": "https://example.com/profiles/charlotte_adams.jpg"
+    },
+    "message": "Charlotte Adams invited you to join the group 'Swift Developers'.",
+    "groupId": "group_321",
+    "timeStamp": "2024-03-24T18:15:30+05:30"
+},
+ {
+    "id": "notif_011",
+    "notificationType": "New Post",
+    "user": {
+        "name": "Liam Walker",
+        "profileImage": "https://example.com/profiles/liam_walker.jpg"
+    },
+    "message": "Liam Walker just posted a new photo.",
+    "postId": "post_999",
+    "timeStamp": "2025-03-25T01:40:01+05:30"
+}
+ ]

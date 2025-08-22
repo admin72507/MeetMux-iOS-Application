@@ -1,0 +1,94 @@
+[
+    {
+        "id": "section1",
+        "title": "My Profile",
+        "items": [
+            { "id": "item1_aboutme", "name": "About Me", "icon": "person.crop.circle" },
+            { "id": "item1_privacysettings", "name": "Privacy Settings", "icon": "hand.raised.circle",
+                "Privacy Options" : [
+                    "IsProfilePrivate" : true,
+                    "IsStatusNotAvailble": true
+                ]
+            },
+            { "id": "item1_accountsecurity", "name": "Account Security", "icon": "lock.circle" }
+        ]
+    },
+    {
+        "id": "section2",
+        "title": "Connection History",
+        "items": [
+            { "id": "item2_recentconnections", "name": "Recent Connections", "icon": "clock.circle" },
+            { "id": "item2_blockedusers", "name": "Blocked Users", "icon": "person.crop.circle.badge.xmark" },
+            { "id": "item2_pendingrequests", "name": "Pending Requests", "icon": "person.crop.circle.fill.badge.questionmark" }
+        ]
+    },
+    {
+        "id": "section3",
+        "title": "Help Center",
+        "items": [
+            { "id": "item3_faqs", "name": "FAQs", "icon": "questionmark.circle.fill", "link" : "https://support.apple.com" },
+            { "id": "item3_contactsupport", "name": "Contact Support", "icon": "person.crop.circle.badge.questionmark" },
+            { "id": "item3_reportaproblem", "name": "Report a Problem", "icon": "exclamationmark.bubble.circle" }
+        ]
+    },
+    {
+        "id": "section4",
+        "title": "My Account",
+        "items": [
+            { "id": "item4_personaldetails", "name": "Personal Details", "icon": "person.text.rectangle.fill" },
+            { "id": "item4_changepassword", "name": "Change PhoneNumber", "icon": "key.card" },
+            { "id": "item4_deleteaccount", "name": "Delete/Deactivate Account", "icon": "trash.circle.fill" },
+            { "id": "item4_themeslightdarkmode", "name": "Themes (Light/Dark Mode)", "icon": "circle.lefthalf.filled.inverse" }
+        ]
+    },
+    {
+        "id": "section5",
+        "title": "Chat Settings",
+        "items": [
+            { "id": "item5_enabledisablechat", "name": "Enable/Disable Chat", "icon": "bubble.left.circle" },
+            { "id": "item5_chatprivacy", "name": "Chat Privacy", "icon": "lock.circle.fill" },
+            { "id": "item5_blockedcontacts", "name": "Blocked Contacts", "icon": "person.crop.circle.badge.xmark" }
+        ]
+    },
+    {
+        "id": "section6",
+        "title": "Notification Settings",
+        "items": [
+            { "id": "item6_pushnotifications", "name": "Push Notifications", "icon": "bell.circle" },
+            { "id": "item6_emailnotifications", "name": "Email Notifications", "icon": "envelope.circle.fill" },
+            { "id": "item6_soundvibration", "name": "Sound & Vibration", "icon": "speaker.wave.2.circle" }
+        ]
+    },
+    {
+        "id": "section7",
+        "title": "About App",
+        "items": [
+            { "id": "item7_versioninfo", "name": "Version Info", "icon": "info.circle.fill" },
+            { "id": "item7_termsconditions", "name": "Terms & Conditions", "icon": "doc.text.magnifyingglass", "link" : "https://www.apple.com/legal/internet-services/terms/site.html" },
+            { "id": "item7_privacypolicy", "name": "Privacy Policy", "icon": "hand.raised.circle", "link" : "https://www.apple.com/legal/privacy/en-ww/" }
+        ]
+    },
+    {
+        "id": "section8",
+        "title": "Share App",
+        "items": [
+            { "id": "item8_share", "name": "Share MeetMux", "icon": "message.circle" },
+            { "id": "item8_copyinvitelink", "name": "Copy Invite Link", "icon": "link.circle" }
+        ]
+    },
+    {
+        "id": "section9",
+        "title": "App Feedback & Ratings",
+        "items": [
+            { "id": "item9_rateus", "name": "Rate Us", "icon": "star.circle.fill" },
+            { "id": "item9_submitfeedback", "name": "Submit Feedback", "icon": "exclamationmark.bubble.circle.fill" }
+        ]
+    },
+    {
+        "id": "section10",
+        "title": "Log Out",
+        "items": [
+            { "id": "item10_logout", "name": "Log Out", "icon": "arrow.uturn.right.circle.fill" }
+        ]
+    }
+]
